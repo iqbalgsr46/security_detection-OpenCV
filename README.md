@@ -159,4 +159,4 @@ Ide untuk pengembangan:
 
 ---
 
-**Dibuat dengan ❤️ menggunakan Python, OpenCV, dan YOLO v8**
+**Dibuat dengan menggunakan Python, OpenCV, dan YOLO v8**
