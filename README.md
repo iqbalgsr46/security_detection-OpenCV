@@ -2,7 +2,7 @@
 
 Program Python untuk mendeteksi pencuri dan barang yang hilang menggunakan kamera dan AI.
 
-## 🎯 Fitur
+## Fitur
 
 - ✅ Deteksi manusia real-time dengan alert suara "Awas ada pencuri masuk"
 - ✅ Tracking barang-barang di area yang dipantau
@@ -11,14 +11,14 @@ Program Python untuk mendeteksi pencuri dan barang yang hilang menggunakan kamer
 - ✅ Interface visual dengan bounding box
 - ✅ Sistem kalibrasi otomatis
 
-## 📋 Kebutuhan Sistem
+## Kebutuhan Sistem
 
 - Python 3.8 atau lebih baru
 - Webcam/kamera
 - Speaker/audio output
 - Koneksi internet (untuk download model pertama kali)
 
-## 🚀 Instalasi
+## Instalasi
 
 ### 1. Install Dependencies
 
@@ -42,7 +42,7 @@ Jalankan script untuk membuat file audio peringatan:
 python buat_audio.py
 ```
 
-## 💻 Cara Menggunakan
+## Cara Menggunakan
 
 ### Jalankan Program
 
@@ -70,7 +70,7 @@ Program akan menampilkan:
 - Panel informasi status sistem
 - Alert visual saat ada ancaman
 
-## 🎮 Testing
+## Testing
 
 ### Test Deteksi Pencuri
 1. Jalankan program
@@ -107,14 +107,14 @@ cap = cv2.VideoCapture(1)  # Coba 0, 1, 2, dst
 - Kurangi resolusi kamera
 - Tutup aplikasi lain yang berat
 
-## 📚 Cara Kerja
+## Cara Kerja
 
 1. **YOLO v8**: Mendeteksi 80+ jenis objek termasuk manusia
 2. **Kalibrasi**: Mencatat barang-barang awal yang ada
 3. **Tracking**: Membandingkan kondisi saat ini dengan kondisi awal
 4. **Alert**: Membunyikan alarm jika ada anomali
 
-## 🎨 Objek yang Dapat Dideteksi
+## Objek yang Dapat Dideteksi
 
 YOLO dapat mendeteksi 80+ objek, antara lain:
 - Manusia (person)
@@ -135,18 +135,18 @@ YOLO dapat mendeteksi 80+ objek, antara lain:
 - Untuk deteksi yang lebih akurat di malam hari, gunakan lampu yang cukup
 - Sistem bekerja optimal di ruangan dengan pencahayaan baik
 
-## 🤝 Kontribusi
+## Kontribusi
 
 Feel free untuk:
 - Report bugs
 - Suggest fitur baru
 - Improve code
 
-## 📄 Lisensi
+## Lisensi
 
 Free to use untuk keperluan pribadi dan edukasi.
 
-## 👨‍💻 Pengembangan Lebih Lanjut
+## 👨‍💻Pengembangan Lebih Lanjut
 
 Ide untuk pengembangan:
 - [ ] Notifikasi ke smartphone
